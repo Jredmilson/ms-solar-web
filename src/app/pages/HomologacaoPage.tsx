@@ -5,7 +5,7 @@ import {
   Zap, CheckCircle2, AlertTriangle, Building2,
   User, HardHat, Star,
 } from 'lucide-react';
-import logo from '../../assets/ms_logo_final.png';
+import logo from '../../assets/MS_logo_FINAL.png';
 
 // ── DADOS ────────────────────────────────────────────────
 
