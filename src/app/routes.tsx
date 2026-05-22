@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, Navigate } from "react-router-dom";
 import { CRMLayout } from "./crm/CRMLayout";
 import { DashboardScreen } from "./crm/screens/DashboardScreen";
 import { LeadsScreen } from "./crm/screens/LeadsScreen";
@@ -42,5 +42,10 @@ export const router = createBrowserRouter([
       { path: "depoimentos", Component: DepoimentosScreen },
       { path: "configuracoes", Component: SettingsScreen },
     ],
+  },
+  // Qualquer rota desconhecida redireciona para o site
+  {
+    path: "*",
+    element: <Navigate to="/" replace />,
   },
 ]);
