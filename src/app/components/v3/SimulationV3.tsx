@@ -338,7 +338,7 @@ export function SimulationV3() {
                       icon: <Battery size={20} />,
                       label: 'Potência do sistema',
                       valor: `${resultado.potenciaSistemaKwp} kWp`,
-                      sub: `${resultado.paineisSolares} painéis`,
+                      sub: `Sistema dimensionado`,
                       cor: '#0A2540',
                     },
                     {
@@ -352,7 +352,7 @@ export function SimulationV3() {
                       icon: <Ruler size={20} />,
                       label: 'Área de telhado',
                       valor: `${resultado.areaTetoNecessariaM2} m²`,
-                      sub: `${resultado.paineisSolares} painéis de 400W`,
+                      sub: `área estimada`,
                       cor: '#0A2540',
                     },
                     {

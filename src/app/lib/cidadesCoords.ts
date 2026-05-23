@@ -142,9 +142,9 @@ export const CUSTO_POR_KWP = 4500;
 // Perda de eficiência dos painéis assumida (%)
 export const PERDA_SISTEMA = 14;
 // Área média por painel (m²)
-export const AREA_POR_PAINEL = 2.0;
-// Potência por painel (kWp)
-export const POTENCIA_POR_PAINEL = 0.40;
+export const AREA_POR_PAINEL = 2.6;
+// Potência por painel (kWp) — média de mercado 2024/2025
+export const POTENCIA_POR_PAINEL = 0.580;
 
 export function buscarCoordenadasCidade(cidade: string): CidadeCoord | null {
   const normalizar = (s: string) =>
