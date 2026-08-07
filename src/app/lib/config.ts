@@ -5,10 +5,10 @@
 
 export const SITE_CONFIG = {
   // Número do WhatsApp (somente dígitos, com DDI)
-  whatsappNumber: import.meta.env.VITE_WHATSAPP_NUMBER || '5511947495517',
+  whatsappNumber: import.meta.env.VITE_WHATSAPP_NUMBER || '551125334837',
 
   // Nome da empresa
-  empresa: import.meta.env.VITE_EMPRESA_NOME || 'Solar Energy',
+  empresa: import.meta.env.VITE_EMPRESA_NOME || 'MS - Multi Serviços',
 
   // E-mail de contato
   emailContato: import.meta.env.VITE_EMAIL_CONTATO || 'contato@solarenergy.com.br',
