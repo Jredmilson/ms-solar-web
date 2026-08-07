@@ -58,12 +58,12 @@ export function FooterV3() {
             <div className="space-y-3">
               <a href={whatsappLink('')} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-white opacity-80 hover:opacity-100 transition-opacity">
                 <MessageCircle className="w-5 h-5" style={{ color: '#25D366' }} />
-                (11) 98765-4321
+                (11) 2533-4837
               </a>
 
-              <a href="mailto:contato@ecosolar.com.br" className="flex items-center gap-3 text-white opacity-80 hover:opacity-100 transition-opacity">
+              <a href="mailto:msmultiservicos2026@gmail.com" className="flex items-center gap-3 text-white opacity-80 hover:opacity-100 transition-opacity">
                 <Mail className="w-5 h-5" style={{ color: '#FDB813' }} />
-                contato@ecosolar.com.br
+                msmultiservicos2026@gmail.com
               </a>
             </div>
           </div>
@@ -73,9 +73,9 @@ export function FooterV3() {
             <div className="flex items-start gap-3 text-white opacity-80">
               <MapPin className="w-5 h-5 flex-shrink-0" style={{ color: '#FDB813' }} />
               <div>
-                <p>Av. Paulista, 1000</p>
+                <p>Av. Mutinga, 523 - Jardim Libano</p>
                 <p>São Paulo, SP</p>
-                <p>CEP 01310-100</p>
+                <p>CEP 05154-000</p>
               </div>
             </div>
           </div>
